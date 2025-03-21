@@ -2,6 +2,8 @@
 
 Um sistema bancário simples desenvolvido em Python com interface gráfica usando a biblioteca Tkinter. O sistema permite realizar operações básicas como depósitos, saques e consultar o extrato.
 
+---
+
 ## Funcionalidades
 
 - **Depósito**: Adiciona um valor ao saldo da conta.
@@ -9,24 +11,33 @@ Um sistema bancário simples desenvolvido em Python com interface gráfica usand
 - **Extrato**: Exibe o histórico de transações e o saldo atual.
 - **Interface Gráfica**: Interface amigável e intuitiva para interação com o usuário.
 
+---
+
 ## Requisitos
 
 - Python 3.x
 - Biblioteca Tkinter (já incluída na instalação padrão do Python)
 - Biblioteca `locale` (já incluída na instalação padrão do Python)
 
+---
+
 ## Como Executar
 
-1. **Clone o repositório**:
+1. **Clone o repositório e navegue até a pasta**:
    ```bash
    git clone https://github.com/rodr4g/sistema-bancario.git
+   
    cd sistema-bancario
+   
 2. **Execute o script**:
    ```bash
    python sistema_bancario.py
+   
 3. **Utilize a interface gráfica**:
    - A interface será aberta em uma nova janela.
    - Use os botões para realizar depósitos, saques ou consultar o extrato.
+
+---
 
 ## Estrutura do Código
 
@@ -41,7 +52,10 @@ Um sistema bancário simples desenvolvido em Python com interface gráfica usand
   
   `LIMITE_SAQUES`: Define o número máximo de saques permitidos.
 
+---
+
   ### Funções:
+  
   `depositar()`: Inicia o processo de depósito.
   
   `sacar()`: Inicia o processo de saque.
@@ -60,6 +74,8 @@ Um sistema bancário simples desenvolvido em Python com interface gráfica usand
   
   `formatar_moeda()`: Formata valores como moeda brasileira (R$ 0,00).
 
+---
+
 ## Exemplo de Uso
 
  ### 1. Depósito
@@ -77,4 +93,10 @@ Um sistema bancário simples desenvolvido em Python com interface gráfica usand
  ### 3. Extrato
   - Clique em "Extrato".
   - O histórico de transações e o saldo atual serão exibidos.
-  
+
+---
+### ⚙️Tecnologias
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+---
